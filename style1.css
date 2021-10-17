@@ -1,0 +1,177 @@
+header
+{
+	border: 2px solid purple;
+	color: blueviolet;
+	margin: 0px;
+	text-align: center;
+	background-size: cover ;
+	background-image: url(depositphotos_81285608-stock-photo-watercolor-background-with-splashes.jpg);
+	padding: 0px;
+	font-family: Courier New, Arial, sans-serif;
+
+}
+
+iframe
+{
+	margin: auto;
+	margin-top: 50px;
+	border: 1px solid #D7BDE2;
+	background-color: #FFF;
+	
+}
+h3
+{
+	text-align: center;
+}
+
+body
+{
+	font-family: Verdana;
+	margin: 0px;
+	padding: 0px;
+	background-color: #D7BDE2;
+}
+nav > ul 
+{
+	margin: 0px;
+	padding: 0px;
+	background-size: cover;
+	background-image: url(39224143-dessin-coloré-d-aquarelle-pour-une-utilisation-en-arrière-plan-artistique.jpg);
+}
+nav li 
+{
+	list-style-type: none;
+}
+nav > ul > li 
+{
+	float: left;
+	position: relative;
+}
+.submenu
+{
+	display: none;
+}
+
+nav 
+{
+	width: 100%;
+	background-color: blueviolet;
+}
+nav > ul::after
+{
+	content: "";
+	display: table;
+	clear: both;
+
+}
+nav a 
+{
+	display: inline-block;
+	text-decoration: none;
+}
+nav > ul > li > a 
+{
+	padding: 20px 30px;
+	color: ghostwhite;
+}
+nav li:hover .submenu
+{
+	display: inline-block;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	padding: 0px;
+	z-index: 100000;
+
+}
+
+.submenu li 
+{
+	border-bottom: 1px solid darkviolet;
+
+}
+.submenu li a 
+{
+	padding: 15px 30px;
+	font-size: 13px;
+	color: black;
+	width: 150px;
+}
+
+.accueil-html :hover
+{
+	border-top: 5px solid darkviolet;
+	background-color: rgba(148, 114, 201, 0.6);
+	
+}
+.cv-html :hover
+{	
+	border-top: 5px solid powderblue;
+	background-color: rgba(000, 112, 192, 0.6)
+}
+.projets-html :hover
+{
+	border-top: 5px solid plum;
+	background-color: rgba(241, 211, 79, 0.6)
+
+}
+.veilles-html :hover
+{
+	border-top: 5px solid slateblue;
+	background-color: rgba(245, 40, 145, 0.6);
+}
+.contact-html :hover
+{
+	border-top: 5px solid thistle ;
+	background-color: rgba( 255, 0, 0, 0.6);
+}
+nav > ul > li:hover a 
+{
+	padding: 15px 30px 20px 30px;
+}
+.accueil-html .submenu
+{
+	background-color: rgb(195, 155, 211);
+}
+.cv-html .submenu
+{
+	background-color: rgb(127, 179, 213);
+}
+.projets-html .submenu
+{
+	background-color: rgb(230, 176, 170);
+}
+.veilles-html .submenu
+{
+	background-color: rgb(116, 115, 224);
+}
+.contact-html .submenu
+{
+	background-color: rgb(235, 222, 240);
+}
+.submenu li:hover a 
+{
+	color: #EEE;
+	font-weight: bold;
+}
+.accueil-html .submenu li:hover
+{
+	background-color: rgb(210, 77, 60);
+}
+.cv-html .submenu li:hover
+{
+	background-color: rgb(000, 115, 200);
+}
+.projets-html .submenu li:hover
+{
+	background-color: rgb(200, 165, 75);
+}
+.veilles-html .submenu li:hover
+{
+	background-color: rgb(200, 165, 75);
+}
+.contact-html .submenu li:hover
+{
+	background-color: rgb(200, 165, 75);
+}
+
