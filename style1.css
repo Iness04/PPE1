@@ -10,6 +10,19 @@ header
 	font-family: Courier New, Arial, sans-serif;
 
 }
+footer
+{
+	border: 2px solid purple;
+	color: blueviolet;
+	padding: 5px;
+	margin: 0px;
+	text-align: center;
+	background-size: cover ;
+	background-image: url(depositphotos_81285608-stock-photo-watercolor-background-with-splashes.jpg);
+	padding: 0px;
+	font-family: Courier New, Arial, sans-serif;
+
+}
 
 iframe
 {
